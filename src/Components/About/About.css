@@ -11,7 +11,7 @@
 
 .about-title {
   position: relative;
-  text-align: center;
+  display: inline-block; /* keeps highlight tight to text */
 }
 
 .about-title h1 {
@@ -23,12 +23,14 @@
 
 .about-title img {
   position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 50px;            
-  z-index: -1;
-  opacity: 0.7;
-}
+  bottom: -5px;        /* move slightly below text */
+  left: 50%;           /* center relative to text */
+  transform: translateX(-50%); /* truly center */
+  width: 120px;        /* better size */
+  height: auto;
+  z-index: -1;         /* stays behind text */
+  opacity: 0.8;   
+}  
 
 .about-sections {
   display: flex;
