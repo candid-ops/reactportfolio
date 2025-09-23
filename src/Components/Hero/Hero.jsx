@@ -4,7 +4,7 @@ import cartoon from '../../assets/cartoon.jpg'
 
 const Hero = () => {
   return (
-    <div className='hero'>
+    <div id='home' className='hero'>
       <img src={cartoon} alt="Profile cartoon" />
       <h1><span>I'M Abdulkarim,</span> Fullstack developer based in Kenya</h1>
       <p>I'm a fullstack developer with 5 years experience</p>

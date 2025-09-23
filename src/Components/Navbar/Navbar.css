@@ -2,11 +2,10 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px 60px; /* use padding instead of huge margins */
-  background: #0c0c0b; /* keeps it dark */
+  padding: 20px 60px; 
+  background: #0c0c0b; 
 }
 
-/* Menu */
 .nav-menu {
   display: flex;
   align-items: center;
@@ -20,13 +19,8 @@
   transition: color 0.3s ease;
 }
 
-.nav-menu li:hover {
-  color: #da7c25; /* hover accent */
-}
-
-/* Connect button */
 .nav-connect {
-  padding: 10px 24px; /* smaller, more elegant */
+  padding: 10px 24px; 
   border-radius: 50px;
   background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
   font-size: 18px;
@@ -37,4 +31,21 @@
 .nav-connect:hover {
   transform: scale(1.05);
   opacity: 0.9;
+}
+
+.nav-menu li{
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  cursor: pointer;
+}
+
+.nav-menu li img{
+  display: flex;
+  margin: auto;
+}
+
+.anchor-link{
+  text-decoration: none;
+  color: white;
 }
