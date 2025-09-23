@@ -7,7 +7,8 @@ export default defineConfig({
   base: "/react-portfolio/",  // 👈 Make sure this matches your repo name
 
    server: {
-    host: '0.0.0.0' || "reactportfolio-frg5.onrender.com",
+    host: '0.0.0.0', 
     port: 10000,  // Use the port expected by Render
+    allowedHosts:"reactportfolio-frg5.onrender.com"
   }
 })
