@@ -7,7 +7,7 @@ const Footer = () => {
     <div className='footer'>
       <div className="footer-top">
         <div className="footer-top-left">
-            <img src={footer_logo} alt="" />
+            
             <p>I am a fullstack developer from Kenya with 5 years of experience</p>
         </div>
         <div className="footer-top-right">
