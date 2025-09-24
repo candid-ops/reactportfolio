@@ -4,8 +4,7 @@
   align-items: center;
   gap: 80px;
   margin: 30px 60px;
-  width: 100%;
-  box-sizing: border-box;
+  width: calc(100% - 120px);
 }
 
 .mywork-title {
@@ -44,6 +43,7 @@
   transition: transform 0.3s ease, border-color 0.3s ease;
   cursor: pointer;
   object-fit: cover;
+  
 }
 
 .mywork-container img:hover {
@@ -72,6 +72,7 @@
   .mywork {
     gap: 60px;
     margin: 30px 40px;
+    width: calc(100% - 80px);
   }
   
   .mywork-title h1 {
@@ -97,6 +98,7 @@
   .mywork {
     gap: 40px;
     margin: 20px 30px;
+    width: calc(100% - 60px);
   }
   
   .mywork-title h1 {
@@ -125,6 +127,7 @@
   .mywork {
     gap: 30px;
     margin: 15px 20px;
+    width: calc(100% - 40px);
   }
   
   .mywork-title h1 {
@@ -156,6 +159,7 @@
 @media (max-width: 360px) {
   .mywork {
     margin: 10px 15px;
+    width: calc(100% - 30px);
     gap: 25px;
   }
   
