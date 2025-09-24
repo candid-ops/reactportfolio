@@ -180,3 +180,59 @@
     font-size: 16px;
   }
 }
+
+/* 📱 Extra small screens (like iPhone SE, older Androids) */
+@media (max-width: 400px) {
+  .about {
+    gap: 40px;
+    margin: 20px 15px;
+  }
+
+  .about-title h1 {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .about-title img {
+    width: 80px;
+    bottom: -2px;
+  }
+
+  .about-para {
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+  }
+
+  .about-skill {
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .about-skill p {
+    font-size: 14px;
+    min-width: auto;
+    text-align: center;
+  }
+
+  .about-skill hr {
+    width: 100%;
+    height: 5px;
+  }
+
+  .about-achievments {
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 40px;
+  }
+
+  .about-achievment h1 {
+    font-size: 22px;
+  }
+
+  .about-achievment p {
+    font-size: 12px;
+  }
+}
+
