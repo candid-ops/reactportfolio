@@ -20,8 +20,8 @@
 
 .services-title img {
   position: absolute;
-  bottom: -8px;          
-  left: 50%;             
+  bottom: 2px;          
+  left: 80%;             
   transform: translateX(-50%);
   width: 160px;          
   height: auto;
